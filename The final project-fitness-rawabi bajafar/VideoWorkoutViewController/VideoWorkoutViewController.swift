@@ -9,9 +9,7 @@ class VideoWorkoutViewController: UIViewController {
   // MARK: - IBOutlets
   
   @IBOutlet weak var weightTrainVid: UIWebView!
-  
   @IBOutlet weak var crossFitVid: UIWebView!
-  
   @IBOutlet weak var cardioVid: UIWebView!
   
   // MARK: - View controller lifecycle

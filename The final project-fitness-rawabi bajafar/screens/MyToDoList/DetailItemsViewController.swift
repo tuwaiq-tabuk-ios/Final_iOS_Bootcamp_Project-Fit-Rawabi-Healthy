@@ -77,8 +77,8 @@ class DetailItemsViewController: UIViewController , UITextFieldDelegate , UINavi
     super.viewWillAppear(animated)
     myToDoList.text = item.name
     nextgoals.text = item.name
-    numberFormatter.string(from: NSNumber(value: item.valueInDollars))
-    datePicker.date = item.dateCreated
+    numberFormatter.string(from: NSNumber(value: item.valueTasks))
+    datePicker.date = item.dateTasks 
     // Get the item key
     let key = item.id
     
@@ -97,7 +97,7 @@ class DetailItemsViewController: UIViewController , UITextFieldDelegate , UINavi
     view.endEditing(true)
     // "Save" changes to item
     item.name = myToDoList.text ?? ""
-    item.serialNumber = nextgoals.text
+    item.todaystasks = nextgoals.text
     
   }
   
@@ -171,10 +171,10 @@ class DetailItemsViewController: UIViewController , UITextFieldDelegate , UINavi
   
   func configureDatePicker() {
     let action = UIAction { [weak self] _ in
-      // self.item.dateCreated = self.datePicker.date
+      // self.item.dateTasks  = self.datePicker.date
       
       if let self = self {
-        self.item.dateCreated = self.datePicker.date
+        self.item.dateTasks  = self.datePicker.date
       }
     }
     datePicker.addAction(action, for: .valueChanged)

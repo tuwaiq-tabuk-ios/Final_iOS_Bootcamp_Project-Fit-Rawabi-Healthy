@@ -2,19 +2,16 @@
 //  
 
 import UIKit
+//import Firebase
 import Firebase
-
 
 class SettingVC: UIViewController{
   
   // MARK: - IBOutlets
   
   @IBOutlet weak var updatePassBtn: UIButton!
-  
   @IBOutlet weak var profile: UIButton!
-  
   @IBOutlet weak var signOut: UIButton!
-  
   @IBOutlet var Delete: UIButton!
   
   

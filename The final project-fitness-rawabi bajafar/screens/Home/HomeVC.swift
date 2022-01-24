@@ -12,9 +12,7 @@ class HomeVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSour
   // MARK: - IBOutlets
   
   @IBOutlet var PageController: UIPageControl!
-  
   @IBOutlet var collectionView: UICollectionView!
-  
   @IBOutlet var startWorkoutButton: UIButton!
   
   

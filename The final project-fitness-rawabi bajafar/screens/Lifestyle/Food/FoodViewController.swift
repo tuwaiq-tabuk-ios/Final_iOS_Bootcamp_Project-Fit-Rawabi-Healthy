@@ -9,10 +9,9 @@ import UIKit
 
 class FoodViewController: UIViewController{
   
-  // MARK: - IBOutlets
+ 
   
-  @IBOutlet var foodSearch: UISearchBar!
-  
+
   
   
   // MARK: - Properties
@@ -112,10 +111,10 @@ class FoodViewController: UIViewController{
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    //filteredStates = statess
+    
     overrideUserInterfaceStyle = .light
     navigationItem.setHidesBackButton(true, animated: true)
-    //Array = deta
+    
     // Do any additional setup after loading the view.
     healthyFood.dataSource = self
     healthyFood.delegate = self
@@ -135,6 +134,7 @@ extension FoodViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView,
                  numberOfRowsInSection section: Int) -> Int {
     return foods.count
+    
   }
   
   
@@ -153,9 +153,8 @@ extension FoodViewController: UITableViewDataSource {
     cell.FoodNameLabel.text = currentFood.name
     cell.FoodImageView.image = currentFood.image
     cell.FoodImageView.layer.cornerRadius = cell.FoodImageView.frame.width/2
-    //cell.textLabel?.text = filteredData[indexPath.row]
     return cell
-    
+  
   }
 
 }
@@ -168,10 +167,14 @@ extension FoodViewController:  UITableViewDelegate {
 
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+   
+    tableView.deselectRow(at: indexPath, animated: true)
+   
     let Food = foods[indexPath.row]
     print(Food.name)
+    
     let vc =  storyboard?
-      .instantiateViewController(withIdentifier: "detailsVC") as? DetailsViewController
+      .instantiateViewController(withIdentifier: "detailsVC") as? DetailsFoodViewController
     
     if let viewController = vc {
       viewController.food = Food
@@ -179,6 +182,5 @@ extension FoodViewController:  UITableViewDelegate {
     }
     
   }
-  
   
 }

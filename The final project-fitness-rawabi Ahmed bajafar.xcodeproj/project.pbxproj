@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF0B519E279ACF1F00BA9887 /* BMICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B519D279ACF1F00BA9887 /* BMICalculator.swift */; };
 		BF0B54BD2779D57100CAD052 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B54BC2779D57100CAD052 /* SearchResultsController.swift */; };
 		BF195071277CBA0D002B72F0 /* newPasswordTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF195070277CBA0D002B72F0 /* newPasswordTF.swift */; };
 		BF195079277CBA43002B72F0 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF195078277CBA43002B72F0 /* SettingVC.swift */; };
@@ -22,13 +21,14 @@
 		BF2732CE277520CB00535724 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732CD277520CB00535724 /* LoginViewController.swift */; };
 		BF2732D0277520D100535724 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732CF277520D100535724 /* SignUpViewController.swift */; };
 		BF2732D2277520D900535724 /* SignUpSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732D1277520D900535724 /* SignUpSelection.swift */; };
-		BF2732D52775214D00535724 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732D42775214D00535724 /* DetailsViewController.swift */; };
+		BF2732D52775214D00535724 /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732D42775214D00535724 /* DetailsFoodViewController.swift */; };
 		BF2732D72775215800535724 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732D62775215800535724 /* FoodViewController.swift */; };
 		BF2732D92775216500535724 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732D82775216500535724 /* FoodCell.swift */; };
 		BF2732DB2775216C00535724 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732DA2775216C00535724 /* Food.swift */; };
 		BF2732DE2775223300535724 /* viewControllerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2732DD2775223300535724 /* viewControllerSection.swift */; };
 		BF325C81278AED9400B9CA1C /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF325C80278AED9400B9CA1C /* StoryboardName.swift */; };
 		BF38C8E2279758EF00F67FCF /* FSUserManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38C8E1279758EE00F67FCF /* FSUserManage.swift */; };
+		BF490B62279F04FF009D5A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF490B61279F04FF009D5A0D /* AppDelegate.swift */; };
 		BF4EEEC02782436500D64281 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EEEBF2782436500D64281 /* Users.swift */; };
 		BF54067D27676F7C00B118B6 /* VideoWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54067C27676F7C00B118B6 /* VideoWorkoutViewController.swift */; };
 		BF5688CE27861B1900E83FC1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5688CD27861B1900E83FC1 /* CoreLocation.framework */; };
@@ -42,6 +42,7 @@
 		BF81637D276B50B500BEDD43 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BF81637C276B50B500BEDD43 /* FirebaseAnalytics */; };
 		BF81637F276B50B500BEDD43 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BF81637E276B50B500BEDD43 /* FirebaseAuth */; };
 		BF816381276B50B500BEDD43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BF816380276B50B500BEDD43 /* FirebaseFirestore */; };
+		BF82C611279E98730098DA50 /* BMICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82C610279E98730098DA50 /* BMICalculator.swift */; };
 		BF8C674F2785F5F200CDB60F /* BuildingRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C674E2785F5F200CDB60F /* BuildingRecipesViewController.swift */; };
 		BF8FA269278B0ABD0004766E /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FA268278B0ABD0004766E /* Keyboard.swift */; };
 		BFA2A32C2797667A00666D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA2A32E2797667A00666D7D /* Main.storyboard */; };
@@ -55,16 +56,13 @@
 		BFD3A456278EC66800F30B33 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3A455278EC66800F30B33 /* Item.swift */; };
 		BFD3A458278EC69A00F30B33 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3A457278EC69A00F30B33 /* ImageStore.swift */; };
 		BFD3A45A278EC6C600F30B33 /* DetailItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD3A459278EC6C600F30B33 /* DetailItemsViewController.swift */; };
-		BFDA13E6275D4F4C007C22B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA13E5275D4F4C007C22B1 /* AppDelegate.swift */; };
 		BFDA13E8275D4F4C007C22B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA13E7275D4F4C007C22B1 /* SceneDelegate.swift */; };
 		BFDA13F2275D4F4D007C22B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDA13F0275D4F4D007C22B1 /* LaunchScreen.storyboard */; };
 		BFDCC9342790453E00D65C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDCC9332790453E00D65C00 /* Assets.xcassets */; };
 		BFE484092782EC290008FC3A /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE484082782EC290008FC3A /* SettingTableViewCell.swift */; };
-		BFF928A12785D0A600C11BB8 /* CalorieCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF928A02785D0A600C11BB8 /* CalorieCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF0B519D279ACF1F00BA9887 /* BMICalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculator.swift; sourceTree = "<group>"; };
 		BF0B54BC2779D57100CAD052 /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 		BF195070277CBA0D002B72F0 /* newPasswordTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPasswordTF.swift; sourceTree = "<group>"; };
 		BF195078277CBA43002B72F0 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
@@ -79,13 +77,14 @@
 		BF2732CD277520CB00535724 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BF2732CF277520D100535724 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BF2732D1277520D900535724 /* SignUpSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSelection.swift; sourceTree = "<group>"; };
-		BF2732D42775214D00535724 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BF2732D42775214D00535724 /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
 		BF2732D62775215800535724 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		BF2732D82775216500535724 /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		BF2732DA2775216C00535724 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		BF2732DD2775223300535724 /* viewControllerSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewControllerSection.swift; sourceTree = "<group>"; };
 		BF325C80278AED9400B9CA1C /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
 		BF38C8E1279758EE00F67FCF /* FSUserManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSUserManage.swift; sourceTree = "<group>"; };
+		BF490B61279F04FF009D5A0D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF4EEEBF2782436500D64281 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		BF54067C27676F7C00B118B6 /* VideoWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoWorkoutViewController.swift; sourceTree = "<group>"; };
 		BF5688CD27861B1900E83FC1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -96,6 +95,7 @@
 		BF62A8D0277991DF004B0F82 /* CMTextField .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTextField .swift"; sourceTree = "<group>"; };
 		BF64899B278CD6610081D650 /* states.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = states.swift; sourceTree = "<group>"; };
 		BF816379276B4F9400BEDD43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF82C610279E98730098DA50 /* BMICalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMICalculator.swift; sourceTree = "<group>"; };
 		BF8C674E2785F5F200CDB60F /* BuildingRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingRecipesViewController.swift; sourceTree = "<group>"; };
 		BF8FA268278B0ABD0004766E /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		BFA2A32D2797667A00666D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,13 +111,11 @@
 		BFD3A457278EC69A00F30B33 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		BFD3A459278EC6C600F30B33 /* DetailItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemsViewController.swift; sourceTree = "<group>"; };
 		BFDA13E2275D4F4C007C22B1 /* The final project-fitness-rawabi bajafar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The final project-fitness-rawabi bajafar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFDA13E5275D4F4C007C22B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFDA13E7275D4F4C007C22B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BFDA13F1275D4F4D007C22B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFDA13F3275D4F4D007C22B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFDCC9332790453E00D65C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE484082782EC290008FC3A /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
-		BFF928A02785D0A600C11BB8 /* CalorieCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalorieCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,14 +136,25 @@
 		BF02091D2790485D00C816DB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				BF490B61279F04FF009D5A0D /* AppDelegate.swift */,
 				BFDCC9332790453E00D65C00 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		BF02A458279F1CE000506981 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3A455278EC66800F30B33 /* Item.swift */,
+				BF2732DA2775216C00535724 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BF2732B927751EBD00535724 /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				BF02A458279F1CE000506981 /* Models */,
 				BFFC9C6D27998A5700D614AD /* Main */,
 				BFEED2BE2798B0A600BEB319 /* Managers */,
 				BFEED2BF2798B0D800BEB319 /* Helper_Managers */,
@@ -170,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				BF2732BE27751F0700535724 /* GenderVC.swift */,
-				BFF928A02785D0A600C11BB8 /* CalorieCalculator.swift */,
 				BF2732C027751F0F00535724 /* LifestyleVC.swift */,
 				BF2732C227751F1800535724 /* WelcomeVC.swift */,
 				BF8FA268278B0ABD0004766E /* Keyboard.swift */,
@@ -198,7 +206,7 @@
 		BF2732D32775213400535724 /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				BF2732D42775214D00535724 /* DetailsViewController.swift */,
+				BF2732D42775214D00535724 /* DetailsFoodViewController.swift */,
 				BF2732D62775215800535724 /* FoodViewController.swift */,
 				BF0B54BC2779D57100CAD052 /* SearchResultsController.swift */,
 				BF2732D82775216500535724 /* FoodCell.swift */,
@@ -218,7 +226,6 @@
 		BF3FC000276942BC000933A8 /* Suport */ = {
 			isa = PBXGroup;
 			children = (
-				BFDA13E5275D4F4C007C22B1 /* AppDelegate.swift */,
 				BFDA13E7275D4F4C007C22B1 /* SceneDelegate.swift */,
 				BF02091D2790485D00C816DB /* Assets */,
 				BFDA13F0275D4F4D007C22B1 /* LaunchScreen.storyboard */,
@@ -279,7 +286,7 @@
 			children = (
 				BF8C674E2785F5F200CDB60F /* BuildingRecipesViewController.swift */,
 				BF5B949B279AD880000C2BB6 /* BMIVC.swift */,
-				BF0B519D279ACF1F00BA9887 /* BMICalculator.swift */,
+				BF82C610279E98730098DA50 /* BMICalculator.swift */,
 			);
 			path = MyPlate;
 			sourceTree = "<group>";
@@ -319,7 +326,6 @@
 			children = (
 				BFD3A451278EC5D100F30B33 /* ItemStore.swift */,
 				BF64899B278CD6610081D650 /* states.swift */,
-				BF2732DA2775216C00535724 /* Food.swift */,
 				BFCA7B4F2778986F00C95D09 /* LifestyleItem.swift */,
 				BF4EEEBF2782436500D64281 /* Users.swift */,
 			);
@@ -347,7 +353,6 @@
 			children = (
 				BFD3A44F278EC58F00F30B33 /* ItemsVC.swift */,
 				BFD3A453278EC62D00F30B33 /* ItemCell.swift */,
-				BFD3A455278EC66800F30B33 /* Item.swift */,
 				BFD3A457278EC69A00F30B33 /* ImageStore.swift */,
 				BFD3A459278EC6C600F30B33 /* DetailItemsViewController.swift */,
 			);
@@ -460,19 +465,17 @@
 				BF38C8E2279758EF00F67FCF /* FSUserManage.swift in Sources */,
 				BFCA7B4C27788F8A00C95D09 /* DetailVC.swift in Sources */,
 				BF54067D27676F7C00B118B6 /* VideoWorkoutViewController.swift in Sources */,
-				BFDA13E6275D4F4C007C22B1 /* AppDelegate.swift in Sources */,
 				BFD3A456278EC66800F30B33 /* Item.swift in Sources */,
 				BF5688D027861CD400E83FC1 /* MapViewController.swift in Sources */,
+				BF490B62279F04FF009D5A0D /* AppDelegate.swift in Sources */,
 				BFD3A450278EC58F00F30B33 /* ItemsVC.swift in Sources */,
 				BF2732D0277520D100535724 /* SignUpViewController.swift in Sources */,
 				BF19507B277CBA6E002B72F0 /* ProfileViweController.swift in Sources */,
-				BF0B519E279ACF1F00BA9887 /* BMICalculator.swift in Sources */,
 				BF5ED6C4276B314300168689 /* Utilities.swift in Sources */,
 				BF325C81278AED9400B9CA1C /* StoryboardName.swift in Sources */,
 				BF195071277CBA0D002B72F0 /* newPasswordTF.swift in Sources */,
 				BFD28EEF27989F670093AEB2 /* FSCollectionReference.swift in Sources */,
 				BF8FA269278B0ABD0004766E /* Keyboard.swift in Sources */,
-				BFF928A12785D0A600C11BB8 /* CalorieCalculator.swift in Sources */,
 				BF4EEEC02782436500D64281 /* Users.swift in Sources */,
 				BFD3A458278EC69A00F30B33 /* ImageStore.swift in Sources */,
 				BF64899C278CD6610081D650 /* states.swift in Sources */,
@@ -494,9 +497,10 @@
 				BF2732CB2775204800535724 /* MainTabBarVC.swift in Sources */,
 				BF5B949C279AD880000C2BB6 /* BMIVC.swift in Sources */,
 				BFCA7B4A27788F8100C95D09 /* AvatarImageView.swift in Sources */,
+				BF82C611279E98730098DA50 /* BMICalculator.swift in Sources */,
 				BF2732C127751F0F00535724 /* LifestyleVC.swift in Sources */,
 				BF0B54BD2779D57100CAD052 /* SearchResultsController.swift in Sources */,
-				BF2732D52775214D00535724 /* DetailsViewController.swift in Sources */,
+				BF2732D52775214D00535724 /* DetailsFoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

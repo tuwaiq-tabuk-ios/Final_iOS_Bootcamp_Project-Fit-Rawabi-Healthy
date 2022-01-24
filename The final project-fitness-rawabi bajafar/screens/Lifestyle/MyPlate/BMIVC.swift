@@ -13,11 +13,8 @@ class BMIVC: UIViewController {
   // MARK: - IBOutlets
   
   @IBOutlet var measurementSegmentedControl: UISegmentedControl!
-  
   @IBOutlet var heightTextField: UITextField!
-  
   @IBOutlet var weightTextField: UITextField!
-  
   @IBOutlet var showBMILabel: UILabel!
   
   
@@ -25,8 +22,7 @@ class BMIVC: UIViewController {
   
   // MARK: - View controller lifecycle
   
-  override func viewDidLoad()
-  {
+  override func viewDidLoad() {
     super.viewDidLoad()
     self.Keyboard()
     
@@ -35,18 +31,16 @@ class BMIVC: UIViewController {
     
     let user = Auth.auth().currentUser
     print(user?.uid)
-    if let currentUser = user
-    {
+    if let currentUser = user {
+      
       db.collection("users").document(currentUser.uid).getDocument
-      { doc, err in
-        if err != nil
-        {
-          print(err)
+      { documentSnaphot, error in
+        if error != nil {
+          print(error)
           
         }
-        else
-        {
-          let data = doc!.data()!
+        else {
+          let data = documentSnaphot!.data()!
           
           self.heightTextField.text = data ["height"] as! String
           self.weightTextField.text = data ["weight"] as! String
@@ -57,20 +51,19 @@ class BMIVC: UIViewController {
       }
     }
   }
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
   
   
-  
   // MARK: - @IBAction
   
   @IBAction func computeBMI(_ sender: Any) {
-    
-    let h = Double(heightTextField.text!)
-    let w = Double(weightTextField.text!)
-    let bmiM = BMIModel(weightbody: w!, heightbody: h!)
-    showBMILabel.text = String (bmiM.bmi())
+    let height = Double(heightTextField.text!)
+    let weight = Double(weightTextField.text!)
+    let bmiM = BMIModel(weightbody: weight!, heightbody: height!)
+    showBMILabel.text = String (format: "%.2f", bmiM.bmi())
     
   }
 }

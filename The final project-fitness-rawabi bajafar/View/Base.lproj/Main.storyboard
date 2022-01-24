@@ -36,17 +36,23 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="withBorder" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W8d-iY-qsP">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="    Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W8d-iY-qsP" customClass="CMTextField" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="58.666666666666657" width="348" height="36.666666666666657"/>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withBorder" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Ermail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y7h-SB-ATB">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Ermail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y7h-SB-ATB" customClass="CMTextField" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="117.3333333333333" width="348" height="36.333333333333329"/>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withBorder" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Vg-JQ-Kdu" customClass="CMTextField" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="175.66666666666669" width="348" height="36.666666666666657"/>
@@ -68,23 +74,32 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isPasswordTF" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcU-Ba-zF6">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcU-Ba-zF6" customClass="CMTextField" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="293" width="348" height="36.333333333333314"/>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withBorder" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wm0-D9-DhA">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wm0-D9-DhA" customClass="CMTextField" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="351.33333333333337" width="348" height="36.666666666666686"/>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withBorder" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Date Of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tLA-gu-gA3">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Date Of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tLA-gu-gA3" customClass="CMTextField" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="410" width="348" height="36.666666666666686"/>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="withBorder" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu1-tc-Hfs">
                                         <rect key="frame" x="0.0" y="468.66666666666663" width="348" height="50"/>
@@ -1005,7 +1020,7 @@
                                 <rect key="frame" x="0.0" y="346" width="428" height="580"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="foodCell" rowHeight="118" id="znq-l6-bTE" customClass="FoodCell" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="foodCell" rowHeight="118" id="znq-l6-bTE" customClass="FoodCell" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="118"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="znq-l6-bTE" id="1J0-0x-Fhn">
@@ -1027,7 +1042,8 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="breakfast" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO1-bI-aMN">
                                                     <rect key="frame" x="151" y="35" width="243" height="54"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                    <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.45938922879999999" alpha="0.85753828639999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="1" green="0.73699361815744513" blue="0.29802360218398427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
@@ -1048,8 +1064,8 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOY-Fh-KnR">
                                 <rect key="frame" x="0.0" y="311" width="428" height="27"/>
-                                <color key="backgroundColor" white="0.92734906459251709" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.91000002619999998" green="0.78069517929999999" blue="0.59382971939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.8655544174771731" blue="0.44568452380952384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="More healthy recipes" showsActivityIndicator="YES">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
@@ -1115,10 +1131,10 @@
             </objects>
             <point key="canvasLocation" x="3240" y="2540"/>
         </scene>
-        <!--Details View Controller-->
+        <!--Details Food View Controller-->
         <scene sceneID="M8X-hi-zzy">
             <objects>
-                <viewController storyboardIdentifier="detailsVC" id="WCP-mx-HnB" customClass="DetailsViewController" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsVC" id="WCP-mx-HnB" customClass="DetailsFoodViewController" customModule="The_final_project_fitness_rawabi_bajafar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A6X-rv-TPh">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1634,7 +1650,7 @@
                                                     <action selector="computeBMI:" destination="bzf-QF-yf9" eventType="touchUpInside" id="6LZ-PA-IBX"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUh-zQ-mRE">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUh-zQ-mRE">
                                                 <rect key="frame" x="8" y="78" width="211" height="32"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -2006,23 +2022,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Notes" translatesAutoresizingMaskIntoConstraints="NO" id="jzB-BW-yBR">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="637"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="606"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3Ih-Z3-VFg">
-                                <rect key="frame" x="20" y="108" width="388" height="517"/>
+                                <rect key="frame" x="20" y="108" width="388" height="486"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HqW-BZ-t6B">
-                                        <rect key="frame" x="0.0" y="0.0" width="388" height="18.666666666666668"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="3"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My To Do List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB8-Fm-t83">
-                                                <rect key="frame" x="0.0" y="0.0" width="93" height="18.666666666666668"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="3"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="69M-kh-DF8">
-                                                <rect key="frame" x="93" y="0.0" width="295" height="18.666666666666668"/>
+                                                <rect key="frame" x="93" y="0.0" width="295" height="3"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -2035,17 +2051,17 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aep-mI-arp">
-                                        <rect key="frame" x="0.0" y="18.666666666666671" width="388" height="18.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="3" width="388" height="3"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next goals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsX-Ar-uxL" userLabel="Next goals">
-                                                <rect key="frame" x="0.0" y="0.0" width="93" height="18.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="3"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MNy-Ns-ofg">
-                                                <rect key="frame" x="93" y="0.0" width="295" height="18.333333333333332"/>
+                                                <rect key="frame" x="93" y="0.0" width="295" height="3"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -2053,13 +2069,13 @@
                                         </subviews>
                                     </stackView>
                                     <datePicker contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="NVz-qb-gCq">
-                                        <rect key="frame" x="0.0" y="37" width="388" height="80"/>
+                                        <rect key="frame" x="0.0" y="6" width="388" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="EuR-Mh-JJV"/>
                                         </constraints>
                                     </datePicker>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6em-dr-W3n">
-                                        <rect key="frame" x="0.0" y="117" width="388" height="400"/>
+                                        <rect key="frame" x="0.0" y="86" width="388" height="400"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8tA-MW-arb">
                                                 <rect key="frame" x="0.0" y="0.0" width="388" height="306"/>
@@ -2089,7 +2105,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="tI6-sJ-EEO">
-                                        <rect key="frame" x="0.0" y="517" width="388" height="31"/>
+                                        <rect key="frame" x="0.0" y="486" width="388" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.096673054150000007" green="0.01179847935" blue="0.053757450423809514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
@@ -2244,8 +2260,23 @@
         <designable name="6P5-XD-6hv">
             <size key="intrinsicContentSize" width="90" height="34"/>
         </designable>
+        <designable name="W8d-iY-qsP">
+            <size key="intrinsicContentSize" width="112.33333333333333" height="34"/>
+        </designable>
+        <designable name="Wm0-D9-DhA">
+            <size key="intrinsicContentSize" width="82.666666666666671" height="34"/>
+        </designable>
+        <designable name="Y7h-SB-ATB">
+            <size key="intrinsicContentSize" width="79.666666666666671" height="34"/>
+        </designable>
         <designable name="bnE-eE-FEH">
             <size key="intrinsicContentSize" width="109.33333333333333" height="34"/>
+        </designable>
+        <designable name="fcU-Ba-zF6">
+            <size key="intrinsicContentSize" width="84.666666666666671" height="34"/>
+        </designable>
+        <designable name="tLA-gu-gA3">
+            <size key="intrinsicContentSize" width="120" height="34"/>
         </designable>
         <designable name="v7V-2j-1MB">
             <size key="intrinsicContentSize" width="62.666666666666664" height="34"/>
@@ -2257,7 +2288,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="rES-rq-CrJ"/>
         <segue reference="9cg-6v-VC0"/>
-        <segue reference="VjM-6u-8iW"/>
+        <segue reference="Ubd-MI-Gfs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BMI1" width="139" height="208.33332824707031"/>
