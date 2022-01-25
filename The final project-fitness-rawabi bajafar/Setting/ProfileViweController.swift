@@ -11,17 +11,11 @@ class ProfileViweController: UIViewController  {
   // MARK: - IBOutlets
   
   @IBOutlet weak var EmailTF:CMTextField!
-  
   @IBOutlet var firstnameTF: CMTextField!
-  
   @IBOutlet var lastnameTF: CMTextField!
-  
   @IBOutlet var weightTF: CMTextField!
-  
   @IBOutlet var heightTF: CMTextField!
-  
   @IBOutlet weak var sendBtn: UIButton!
-  
   @IBOutlet var dateOfBirthTF: CMTextField!
   
   

@@ -17,7 +17,6 @@ class WelcomeVC: UIViewController {
   // MARK: - IBOutlets
   
   @IBOutlet weak var signUpButton: UIButton!
-  
   @IBOutlet weak var loginButton: UIButton!
   
   

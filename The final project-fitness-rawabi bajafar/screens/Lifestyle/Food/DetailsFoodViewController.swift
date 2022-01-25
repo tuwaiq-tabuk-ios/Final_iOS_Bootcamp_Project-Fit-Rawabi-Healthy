@@ -7,12 +7,10 @@
 
 import UIKit
 
-class DetailsViewController: UIViewController {
+class DetailsFoodViewController: UIViewController {
   
   // MARK: - Properties
   
-//  var listOfFood = [""]
-//  var foodDictionary: [String] = [""]
   var food: Food!
   
   
@@ -20,11 +18,8 @@ class DetailsViewController: UIViewController {
   // MARK: - IBOutlets
   
   @IBOutlet var foodNameLabel: UILabel!
-  
   @IBOutlet var foodImageView: UIImageView!
-  
   @IBOutlet var ingredientsLabel: UILabel!
-  
   @IBOutlet var descriptionLabel: UILabel!
   
   

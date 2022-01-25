@@ -16,9 +16,9 @@ class Item : Equatable , Codable {
   
   static func ==(lhs: Item, rhs: Item) -> Bool {
     return lhs.name == rhs.name
-    && lhs.serialNumber == rhs.serialNumber
-    && lhs.valueInDollars == rhs.valueInDollars
-    && lhs.dateCreated == rhs.dateCreated
+    && lhs.todaystasks == rhs.todaystasks
+    && lhs.valueTasks == rhs.valueTasks
+    && lhs.dateTasks  == rhs.dateTasks 
   }
   
   
@@ -26,16 +26,16 @@ class Item : Equatable , Codable {
   // MARK: - Properties
   
   var name: String?
-  var valueInDollars: Int
-  var serialNumber: String?
-  var dateCreated: Date
+  var valueTasks: Int
+  var todaystasks: String?
+  var dateTasks : Date
   let id: String
   
-  init(name: String, serialNumber: String?, valueInDollars: Int) {
+  init(name: String, todaystasks: String?, valueTasks: Int) {
     self.name = name
-    self.valueInDollars = valueInDollars
-    self.serialNumber = serialNumber
-    self.dateCreated = Date()
+    self.valueTasks = valueTasks
+    self.todaystasks = todaystasks
+    self.dateTasks  = Date()
     self.id = UUID().uuidString
   }
   
@@ -50,9 +50,9 @@ class Item : Equatable , Codable {
       let randomSerialNumber =
       UUID().uuidString.components(separatedBy: "-").first!
       self.init(name: randomName,
-                serialNumber: randomSerialNumber ,valueInDollars: randomValue)
+                todaystasks: randomSerialNumber ,valueTasks: randomValue)
     } else {
-      self.init(name: "", serialNumber: nil, valueInDollars: 0)
+      self.init(name: "", todaystasks: nil, valueTasks: 0)
     }
   }
 }

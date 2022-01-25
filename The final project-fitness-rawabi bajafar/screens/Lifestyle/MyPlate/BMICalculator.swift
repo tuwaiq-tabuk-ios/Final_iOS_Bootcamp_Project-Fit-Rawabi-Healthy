@@ -12,16 +12,16 @@ class BMIModel {
 
   // MARK: - Properties
 
-  var weightbody :Double
-var heightbody :Double
+  var weightbody :Float
+var heightbody :Float
 
 init(weightbody:Double,heightbody:Double){
-  self.weightbody = weightbody
-  self.heightbody = heightbody
+  self.weightbody = Float(weightbody)
+  self.heightbody = Float(heightbody)
 }
 
 func bmi()->Double {
-  return weightbody/(heightbody*heightbody)
+  return Double(weightbody/(heightbody*heightbody))
 
 }
 }
